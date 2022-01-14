@@ -1,0 +1,7 @@
+node_modules/**/*
+build/**/*
+certs/**/*
+
+*.log
+.env
+package-lock.json
