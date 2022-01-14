@@ -8,6 +8,8 @@ export default function (app: Express) {
   app.use(json());
 
   app.use("/todos", todos);
-
+  app.use("*", (req, res) => {
+    res.status(404).send("what???");
+  });
   app.use(error);
 }
