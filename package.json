@@ -4,9 +4,9 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node ./build/index.js",
     "build": "tsc -p .",
-    "dev": "npx nodemon src/index.ts"
+    "dev": "npx nodemon ./src/index.ts"
   },
   "author": "",
   "license": "ISC",
